@@ -66,7 +66,6 @@ h6 {
 
 .back-to-top i {
   padding-top: 12px;
-  color: #fff;
 }
 
 /* Prelaoder */
@@ -552,7 +551,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Sections Header
 --------------------------------*/
 
-.section-header h3 {
+.section-header h3{
   font-size: 32px;
   color: #111;
   text-transform: uppercase;
@@ -562,7 +561,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 15px;
 }
 
-.section-header h3::before {
+.section-header h3::before{
   content: '';
   position: absolute;
   display: block;
@@ -573,7 +572,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   left: calc(50% - 60px);
 }
 
-.section-header h3::after {
+.section-header h3::after{
   content: '';
   position: absolute;
   display: block;
