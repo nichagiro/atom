@@ -12,14 +12,8 @@ $headers = "From: nicolaschamorro@cisde.co";
 
 mail($to, $subject, $message, $headers);
 
-// header('Location:enviado.html');
+//hay un script que me esta realizando esto por ayax 
 
-// OTRA MANERA
-
-// echo'<script type="text/javascript">
-//         alert("Tarea Guardada");
-//         window.location.href="index.html";
-//         </script>';
 
 ?>
 
