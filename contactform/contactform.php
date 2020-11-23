@@ -8,7 +8,7 @@ $to = $_POST['email'];
 $subject = 'Mensaje desde pagina web';
 $message = "Nombre: $name"."\nAsunto: $asunto"."\nMensaje: $msg";
 
-$headers = "From: nicolaschamorro@cisde.co";
+$headers = "From: osmel@maquillaje.biz";
 
 mail($to, $subject, $message, $headers);
 
