@@ -14,6 +14,7 @@ $headers = "From:".$_POST['email'];
 
 mail($to, $subject, $message, $headers);
 
+header('location:index.html');
 
 
 ?>
